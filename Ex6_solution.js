@@ -35,7 +35,7 @@ function followPath(number, path) {
         }
     }
     if (terminate && Object.keys(path).length > 2) {
-        console.log({number,length:path.lenght, path});
+        console.log({number,length:Object.keys(path).length, path});
         
     }
 }
